@@ -2,7 +2,7 @@ import React, { useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { motion } from "framer-motion";
 import { CheckCircle, ClipboardList, Gauge, Mail, Phone, Truck, Factory, ShieldCheck, Users, DollarSign } from "lucide-react";
-import "./styles.css";
+import "../styles.css";
 
 const sections = [
   { id: "routing", title: "Routing & Delivery Efficiency", icon: Truck, questions: ["Do you track stops per hour or stops per route?", "Are delivery routes planned before the day starts instead of built reactively?", "Do you review runouts and emergency deliveries every month?", "Do you measure gallons delivered per driver or truck?", "Do you know where route overlap is costing labor and fuel?"] },
