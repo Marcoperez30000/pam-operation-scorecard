@@ -1,5 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { motion } from "framer-motion";
+const heroBackground = "https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop";
+const pamLogo = "https://images.unsplash.com/photo-1513828583688-c52646db42da?q=80&w=300&auto=format&fit=crop";
 import { CheckCircle, ClipboardList, Gauge, Mail, Phone, Truck, Factory, ShieldCheck, Users, DollarSign } from "lucide-react";
 
 const sections = [
@@ -120,15 +122,16 @@ export default function OperationsScorecardApp() {
   const canSubmit = answeredCount === totalQuestions && lead.name && lead.company && lead.email;
 
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
+    <div
+  className="min-h-screen text-white"
+  style={{
+    backgroundImage: `linear-gradient(rgba(2,6,23,0.88), rgba(2,6,23,0.95)), url(${heroBackground})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center"
+  }}
+>
       <section
         className="relative overflow-hidden px-4 py-10 md:px-8 md:py-16"
-        style={{
-          backgroundImage:
-            "linear-gradient(rgba(2,6,23,0.88), rgba(2,6,23,0.94)), url('https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop')",
-          backgroundSize: "cover",
-          backgroundPosition: "center"
-        }}
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(245,158,11,0.22),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.18),transparent_35%)]" />
         <div className="relative mx-auto max-w-6xl">
