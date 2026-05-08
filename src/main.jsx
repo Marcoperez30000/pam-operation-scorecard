@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from "react";
+import { createRoot } from "react-dom/client";
 import { motion } from "framer-motion";
 import { CheckCircle, ClipboardList, Gauge, Mail, Phone, Truck, Factory, ShieldCheck, Users, DollarSign } from "lucide-react";
 const heroBackground = "https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop";
@@ -312,3 +313,8 @@ export default function OperationsScorecardApp() {
     </div>
   );
 }
+createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <OperationsScorecardApp />
+  </React.StrictMode>
+);
