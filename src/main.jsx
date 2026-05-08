@@ -1,9 +1,23 @@
 import React, { useMemo, useState } from "react";
 import { motion } from "framer-motion";
+import { CheckCircle, ClipboardList, Gauge, Mail, Phone, Truck, Factory, ShieldCheck, Users, DollarSign } from "lucide-react";
 const heroBackground = "https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop";
 const pamLogo = "https://images.unsplash.com/photo-1513828583688-c52646db42da?q=80&w=300&auto=format&fit=crop";
-import { CheckCircle, ClipboardList, Gauge, Mail, Phone, Truck, Factory, ShieldCheck, Users, DollarSign } from "lucide-react";
+function Card({ className = "", children }) {
+  return <div className={className}>{children}</div>;
+}
 
+function CardContent({ className = "", children }) {
+  return <div className={className}>{children}</div>;
+}
+
+function Button({ className = "", children, disabled, onClick }) {
+  return (
+    <button className={className} disabled={disabled} onClick={onClick}>
+      {children}
+    </button>
+  );
+}
 const sections = [
   {
     id: "routing",
