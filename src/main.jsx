@@ -1,7 +1,5 @@
 import React, { useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { CheckCircle, ClipboardList, Gauge, Mail, Phone, Truck, Factory, ShieldCheck, Users, DollarSign } from "lucide-react";
 
 const sections = [
