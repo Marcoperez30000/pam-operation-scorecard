@@ -178,10 +178,10 @@ export default function OperationsScorecardApp() {
                 <Gauge className="h-4 w-4" /> The 30,000-Gallon View
               </div>
               <h1 className="text-4xl font-bold tracking-tight text-white md:text-6xl">
-                Propane Operations Scorecard
+                Operational Performance Scorecard
               </h1>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-200">
-                A practical self-assessment for propane owners and managers who want to see where routing, storage, staffing, safety, and financial visibility may be hiding profit leaks.
+               A practical operational assessment designed to help propane leadership teams identify hidden operational pressure, inefficiencies, and margin leaks.
               </p>
               <div className="mt-6 flex flex-wrap gap-3 text-sm text-slate-300">
                 <span className="rounded-full bg-white/10 px-4 py-2">Confidential</span>
