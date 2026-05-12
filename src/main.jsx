@@ -182,7 +182,7 @@ export default function OperationsScorecardApp() {
               <div className="mt-6 flex flex-wrap gap-3 text-sm text-slate-300">
                 <span className="rounded-full bg-white/10 px-4 py-2">Confidential</span>
                 <span className="rounded-full bg-white/10 px-4 py-2">10–15 minutes</span>
-                <span className="rounded-full bg-white/10 px-4 py-2">Built by propane operations</span>
+                <span className="rounded-full bg-white/10 px-4 py-2">Built by Operations. Driven by Results.</span>
               </div>
             </div>
 
