@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { motion } from "framer-motion";
 import { CheckCircle, ClipboardList, Gauge, Mail, Phone, Truck, Factory, ShieldCheck, Users, DollarSign } from "lucide-react";
 const heroBackground = "https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop";
-const pamLogo = "https://images.unsplash.com/photo-1513828583688-c52646db42da?q=80&w=300&auto=format&fit=crop";
+import pamLogo from "./assets/pam-logo.png";
 function Card({ className = "", children }) {
   return <div className={className}>{children}</div>;
 }
@@ -153,7 +153,7 @@ export default function OperationsScorecardApp() {
           <div className="mb-8 flex items-center justify-between rounded-3xl border border-white/10 bg-black/30 px-6 py-4 backdrop-blur">
             <div className="flex items-center gap-4">
               <img
-                src="https://images.unsplash.com/photo-1513828583688-c52646db42da?q=80&w=300&auto=format&fit=crop"
+                src={pamLogo}
                 alt="PAM Enterprises"
                 className="h-16 w-16 rounded-2xl object-cover ring-2 ring-amber-300/40"
               />
