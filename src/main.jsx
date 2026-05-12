@@ -160,6 +160,9 @@ export default function OperationsScorecardApp() {
               <div>
                 <p className="text-2xl font-bold tracking-wide text-white">PAM Enterprises LLC</p>
                 <p className="text-sm uppercase tracking-[0.2em] text-amber-300">Built by Propane Operations</p>
+                <p className="text-sm text-slate-300">
+   practical Operational Leadership for the Propane Industry.
+</p>
               </div>
             </div>
 
