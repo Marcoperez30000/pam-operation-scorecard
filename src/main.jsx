@@ -184,13 +184,13 @@ export default function OperationsScorecardApp() {
                A practical operational assessment designed to help propane leadership teams identify hidden operational pressure, inefficiencies, and margin leaks.
               </p>
               <div className="mt-6 flex flex-wrap gap-3 text-sm text-slate-300">
-                <span className="rounded-full bg-white/10 px-4 py-2">Confidential</span>
-                <span className="rounded-full bg-white/10 px-4 py-2">10–15 minutes</span>
-                <span className="rounded-full bg-white/10 px-4 py-2">Built by Operations. Driven by Results.</span>
+                <span className="rounded-full bg-slate-900 px-4 py-2">Confidential</span>
+                <span className="rounded-full bg-slate-900 px-4 py-2">10–15 minutes</span>
+                <span className="rounded-full bg-slate-900 px-4 py-2">Built by Operations. Driven by Results.</span>
               </div>
             </div>
 
-            <Card className="border-white/10 bg-white/10 text-white shadow-2xl backdrop-blur">
+           <Card className="border-slate-800 bg-slate-950 text-white shadow-2xl">
               <CardContent className="p-6">
                 <ClipboardList className="mb-4 h-10 w-10 text-amber-300" />
                 <h2 className="text-2xl font-semibold">Your progress</h2>
@@ -214,7 +214,7 @@ export default function OperationsScorecardApp() {
           {sections.map((section) => {
             const Icon = section.icon;
             return (
-              <Card key={section.id} className="border-slate-800 bg-slate-900/80 text-white shadow-xl">
+              <Card key={section.id} className="border-slate-800 bg-slate-950 text-white shadow-xl">
                 <CardContent className="p-6">
                   <div className="mb-5 flex items-center gap-3">
                     <div className="rounded-2xl bg-amber-400/15 p-3 text-amber-300"><Icon className="h-6 w-6" /></div>
