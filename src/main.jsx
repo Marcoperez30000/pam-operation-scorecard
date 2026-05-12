@@ -301,7 +301,7 @@ export default function OperationsScorecardApp() {
                   <h4 className="text-xl font-semibold">Want a deeper operational breakdown?</h4>
                   <p className="mt-2 text-slate-300">PAM Enterprises can review the scorecard with you and help identify where routing, storage, staffing, safety, or visibility may be costing margin.</p>
                   <div className="mt-4 flex flex-wrap gap-3">
-                    <a href="mailto:info@pamenterprisesllc.com"" className="inline-flex items-center gap-2 rounded-xl bg-amber-400 px-4 py-3 font-bold text-slate-950 hover:bg-amber-300"><Mail className="h-4 w-4" /> Email PAM</a>
+                    <a href="mailto:info@pamenterprisesllc.com" className="inline-flex items-center gap-2 rounded-xl bg-amber-400 px-4 py-3 font-bold text-slate-950 hover:bg-amber-300"><Mail className="h-4 w-4" /> Email PAM</a>
                     <a href="tel:17173443992" className="inline-flex items-center gap-2 rounded-xl border border-slate-700 px-4 py-3 font-bold text-white hover:border-amber-300"><Phone className="h-4 w-4" /> Call PAM</a>
                   </div>
                 </div>
