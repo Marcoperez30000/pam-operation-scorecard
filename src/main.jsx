@@ -160,15 +160,16 @@ export default function OperationsScorecardApp() {
               <div>
                 <p className="text-2xl font-bold tracking-wide text-white">PAM Enterprises LLC</p>
                 <p className="text-sm uppercase tracking-[0.2em] text-amber-300">Built by Propane Operations</p>
-                <p className="text-sm text-slate-300">
-   practical Operational Leadership for the Propane Industry.
-</p>
+                
               </div>
             </div>
 
             <div className="hidden rounded-2xl border border-amber-300/20 bg-amber-300/10 px-5 py-3 text-right md:block">
               <p className="text-sm text-slate-300">The 30,000-Gallon View</p>
               <p className="font-semibold text-white">Operational Intelligence Platform</p>
+            <p className="text-sm text-slate-300">
+   Practical Operational Leadership for the Propane Industry.
+</p>
             </div>
           </div>
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="grid gap-8 md:grid-cols-[1.15fr_0.85fr] md:items-center">
