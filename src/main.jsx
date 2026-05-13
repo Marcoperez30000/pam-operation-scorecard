@@ -225,7 +225,7 @@ export default function OperationsScorecardApp() {
                     {section.questions.map((question, index) => {
                       const id = `${section.id}-${index}`;
                       return (
-                        <div key={id} className="rounded-2xl border border-slate-800 bg-slate-950/70 p-4">
+                        <div key={id} className="rounded-2xl border border-slate-800 bg-slate-950 p-4">
                           <p className="font-medium text-slate-100">{question}</p>
                           <div className="mt-4 grid gap-2 sm:grid-cols-5">
                             {scale.map((item) => (
