@@ -152,11 +152,9 @@ export default function OperationsScorecardApp() {
         <div className="relative mx-auto max-w-6xl">
           <div className="mb-8 flex items-center justify-between rounded-3xl border border-white/10 bg-black/30 px-6 py-4 backdrop-blur">
             <div className="flex items-center gap-4">
-              <img
-                src={pamLogo}
-                alt="PAM Enterprises"
-                className="h-16 w-16 rounded-2xl object-cover ring-2 ring-amber-300/40"
-              />
+              <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-slate-950 text-2xl font-bold text-white ring-2 ring-amber-300/40">
+  PAM
+</div>
               <div>
                 <p className="text-2xl font-bold tracking-wide text-white">PAM Enterprises LLC</p>
                 <p className="text-sm uppercase tracking-[0.2em] text-amber-300">Built by Operations. Driven by Results.</p>
