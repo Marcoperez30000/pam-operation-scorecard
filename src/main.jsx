@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { motion } from "framer-motion";
 import { CheckCircle, ClipboardList, Gauge, Mail, Phone, Truck, Factory, ShieldCheck, Users, DollarSign } from "lucide-react";
 const heroBackground = "https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop";
-import pamLogo from "./assets/PAM-logo.png";
+import pamLogo from "./assets/pam-app-icon.png";
 function Card({ className = "", children }) {
   return <div className={className}>{children}</div>;
 }
