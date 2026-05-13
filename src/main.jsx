@@ -140,7 +140,7 @@ export default function OperationsScorecardApp() {
     <div
   className="min-h-screen text-white"
   style={{
-   backgroundImage: "linear-gradient(rgba(2,6,23,0.96), rgba(2,6,23,0.98)), url('https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop')",
+   backgroundImage: "linear-gradient(rgba(2,6,23,0.985), rgba(2,6,23,0.995)), url('https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop')",
     backgroundSize: "cover",
     backgroundPosition: "center"
   }}
