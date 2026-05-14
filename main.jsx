@@ -49,7 +49,6 @@ function App() {
 
   return <div className="app">
     <section className="hero">
-      <div className="heroBg" />
       <div className="container heroGrid">
         <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
           <div className="brandMark">PAM</div>
