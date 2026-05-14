@@ -146,11 +146,10 @@ export default function OperationsScorecardApp() {
       <section
         className="relative overflow-hidden px-4 py-10 md:px-8 md:py-16"
       >
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(245,158,11,0.22),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(59,130,246,0.18),transparent_35%)]" />
         <div className="relative mx-auto max-w-6xl">
           <div className="mb-8 flex items-center justify-between rounded-3xl border border-white/10 bg-black/30 px-6 py-4 backdrop-blur">
             <div className="flex items-center gap-4">
-              <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-slate-950 text-2xl font-bold text-white ring-2 ring-amber-300/40">
+              <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-amber-400 text-2xl font-black text-slate-950 shadow-lg">
   PAM
 </div>
               <div>
