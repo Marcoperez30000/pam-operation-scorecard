@@ -135,7 +135,29 @@ export default function OperationsScorecardApp() {
   const strongest = [...sectionScores].sort((a, b) => b.score - a.score).slice(0, 2);
 
   const canSubmit = answeredCount === totalQuestions && lead.name && lead.company && lead.email;
+async function submitScorecard() {
+  const payload = {
+    lead,
+    totalScore,
+    strongest,
+    weakest,
+    answers
+  };
 
+  try {
+    await fetch("https://formspree.io/f/xzdolvze", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(payload)
+    });
+
+    setSubmitted(true);
+  } catch (error) {
+    alert("Submission failed");
+  }
+}
   return (
     <div
   className="min-h-screen text-white"
