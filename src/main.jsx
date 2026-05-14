@@ -140,10 +140,8 @@ export default function OperationsScorecardApp() {
     <div
   className="min-h-screen text-white"
   style={{
-   backgroundImage: "linear-gradient(rgba(2,6,23,0.985), rgba(2,6,23,0.995)), url('https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop')",
-    backgroundSize: "cover",
-    backgroundPosition: "center"
-  }}
+  backgroundColor: "#0b1120"
+}}
 >
       <section
         className="relative overflow-hidden px-4 py-10 md:px-8 md:py-16"
