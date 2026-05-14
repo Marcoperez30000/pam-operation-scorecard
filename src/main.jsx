@@ -149,7 +149,7 @@ export default function OperationsScorecardApp() {
         <div className="relative mx-auto max-w-6xl">
           <div className="mb-8 flex items-center justify-between rounded-3xl border border-white/10 bg-black/30 px-6 py-4 backdrop-blur">
             <div className="flex items-center gap-4">
-              <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-amber-400 text-2xl font-black text-slate-950 shadow-lg">
+              <div className="flex h-16 w-20 items-center justify-center rounded-2xl bg-amber-400 px-3 text-xl font-black tracking-widest text-slate-950 shadow-lg">
   PAM
 </div>
               <div>
