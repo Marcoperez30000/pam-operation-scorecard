@@ -283,7 +283,7 @@ async function submitScorecard() {
               <input className="rounded-xl border border-slate-700 bg-slate-950 px-4 py-3 text-white outline-none focus:border-amber-300" placeholder="Email" value={lead.email} onChange={(e) => setLead({ ...lead, email: e.target.value })} />
               <input className="rounded-xl border border-slate-700 bg-slate-950 px-4 py-3 text-white outline-none focus:border-amber-300" placeholder="Phone optional" value={lead.phone} onChange={(e) => setLead({ ...lead, phone: e.target.value })} />
             </div>
-            <Button disabled={!canSubmit} onClick={() => setSubmitted(true)} className="mt-6 rounded-xl bg-amber-400 px-6 py-6 text-base font-bold text-slate-950 hover:bg-amber-300 disabled:cursor-not-allowed disabled:opacity-50">
+            <Button disabled={!canSubmit} onClick={submitScorecard} className="mt-6 rounded-xl bg-amber-400 px-6 py-6 text-base font-bold text-slate-950 hover:bg-amber-300 disabled:cursor-not-allowed disabled:opacity-50">
               View My Scorecard Result
             </Button>
           </CardContent>
