@@ -147,10 +147,15 @@ async function submitScorecard() {
   try {
     await fetch("https://formspree.io/f/xzdolvze", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(payload)
+      body: JSON.stringify({
+  name: lead.name,
+  company: lead.company,
+  email: lead.email,
+  score: totalScore,
+  strongest: JSON.stringify(strongest),
+  weakest: JSON.stringify(weakest),
+  answers: JSON.stringify(answers)
+})
     });
 
     setSubmitted(true);
